@@ -1,7 +1,12 @@
-// 7. **Multiple Assignments:**
-//    Declare variables for your favorite sport, player, and team in a single line using `let`.
-//  Assign values to these variables and print them.
+// 7. **Correct the Code:**
+//    Fix the issue in the following code:
+//    ```javascript
+//    const quote = "I love JavaScript;
+//    console.log(quote);
+//    ```
 
-let sport = "Cricket", player = "Rohit", team = "India";
+// ---
 
-console.log(sport,player,team);
+       const quote = "I love Javascript";
+       console.log(quote);
+       

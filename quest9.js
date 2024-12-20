@@ -1,13 +1,12 @@
-// 9. **Constant Object:**
-//    Create a constant object `user` with properties `name` and `age`. 
-// Assign appropriate values to the properties and print the object.
+// 9. **Detect Errors:**
+//    Identify and fix the problem in this code:
+//    ```javascript
+//    const greeting = 'Hello, I'm Yash's student';
+//    console.log(greeting);
+//    ```
+// ---
 
 
-const obj = { 
-    name: "Arvind",
-    age: 22,
-}
- console.log(obj.name);
- console.log(obj.age);
-
- 
+      const greeting = 'Hello, I\'m Yahs\'s student';
+      console.log(greeting);
+      

@@ -1,10 +1,16 @@
-// **Empty Declaration:**
-//    Declare three variables (`title`, `price`, and `stock`) without assigning values.
-//  Later, assign appropriate values to them and print a statement: "The book [title] costs ₹[price] and has [stock] copies available."
- 
-let title, price, stock;
-title = "Ramayan";
-price = 1000;
-stock = 10;
+// ### **Code Snippet-Based Questions**
 
-console.log(`The book ${title} cost ${price} and has ${stock} copies available`);
+// 6. **Predict the Output:**
+//    What will the following code print?
+//    ```javascript
+//    const hobby = 'Coding';
+//    console.log('My hobby is: ' + hobby);
+//    ```
+
+//    **Write the code and verify your answer.**
+
+// ---
+
+    const hobby = 'Coding';
+    console.log('My hobby is: ' + hobby); // output is coding
+     

@@ -1,7 +1,18 @@
-// 5. **Favorite Movie:**
-//    Create a variable `favoriteMovie` using `let`.
-//  Assign it your favorite movie's name and print: "My favorite movie is [movie]."
+// 5. **Multi-line String:**
+//    Write a script using backticks to declare a variable `poem` that stores the following multi-line text:
+//    ```
+//    Roses are red,
+//    Violets are blue,
+//    I love coding,
+//    And so do you!
+//    ```
+//    Print the variable.
+// ---
 
-let favoriteMovie = "God Father";
+     const poem = `Roses are red,
+                   Violets are blue,
+                   I love coding,
+                   And so do you!`
 
-console.log(`my favoriteMovie is ${favoriteMovie}`);
+    console.log(poem);
+    

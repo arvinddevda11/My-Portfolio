@@ -1,10 +1,14 @@
+// 4. **String Concatenation:**
+//    Write code to concatenate the following strings:
+//    - `firstName` = `"Yash"`
+//    - `lastName` = `"Priyam"`
+//    Print: `"My full name is Yash Priyam."`
 
-// 4. **Combine Variables:**
-// //    Declare variables for `length` and `width` using `let`.
-//  Assign values to them and calculate the area of a rectangle using these variables. 
-//  Print: "The area of the rectangle is [area]."
+// ---
 
-let length = 5;
-let width = 4;
+       const firstName = "Arvind";
+       const lastName = "Devda";
 
-console.log(length*width);
+       console.log(`My full name is ${firstName} ${lastName}.`);
+       
+       

@@ -1,10 +1,9 @@
-// **Reassignment Practice:**
-// Declare a variable
-//  `city` using `let` and assign it the value `"Mumbai"`.
-//  Change the value to `"Delhi"`. Print the value after each assignment.
+// 2. **Escape Characters:**
+//    Write a script to declare a variable `sentence` with the value:
+//    `"JavaScript's strings can contain special characters like \" and \'."`
+//    Print the variable to verify the escape characters work as intended.
 
-let cityName = "Mumbai";
-console.log(cityName);
 
-cityName = "Delhi";
-console.log(cityName);
+     const a = `"JavaScript's strings can contain special characters like \" and \'."`;
+     console.log(a);
+     

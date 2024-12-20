@@ -1,9 +1,13 @@
-// **Reassignment Practice:**
-//    Declare a variable `language` using `let` and assign it `"English"`. 
-// Later, change it to `"Spanish"` and print the value each time.
+// 8. **Fill in the Blanks:**
+//    Complete the following code to correctly use a template literal:
+//    ```javascript
+//    const language = "JavaScript";
+//    const statement = `I am learning ______!`;
+//    console.log(______);
+//    ```
 
-let language = "English";
-console.log(language);
+        const language = "Javascript";
+        const statement = `I am learning`;
 
-language = "Spanish";
-console.log(language);
+        console.log(statement, language);
+        
