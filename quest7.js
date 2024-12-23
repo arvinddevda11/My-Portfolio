@@ -1,12 +1,10 @@
-// 7. **Correct the Code:**
-//    Fix the issue in the following code:
+// 2. **Fix the Code:**
+//    Find and correct the error in the following code:
 //    ```javascript
-//    const quote = "I love JavaScript;
-//    console.log(quote);
+//    const bigInt = 12345678901234567890;
+//    console.log(bigInt);
 //    ```
 
-// ---
-
-       const quote = "I love Javascript";
-       console.log(quote);
-       
+    const bigInt = BigInt(12345678901234567890);
+    console.log(bigInt);
+    

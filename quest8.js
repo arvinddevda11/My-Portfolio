@@ -1,13 +1,18 @@
-// 8. **Fill in the Blanks:**
-//    Complete the following code to correctly use a template literal:
+// 3. **Complete the Code:**
+//    Fill in the blanks to print the highest and lowest safe integers:
 //    ```javascript
-//    const language = "JavaScript";
-//    const statement = `I am learning ______!`;
-//    console.log(______);
+//    const maxSafe = Number.______;
+//    const minSafe = Number.______;
+//    console.log("Max Safe Integer:", maxSafe);
+//    console.log("Min Safe Integer:", minSafe);
 //    ```
+// ---
 
-        const language = "Javascript";
-        const statement = `I am learning`;
 
-        console.log(statement, language);
-        
+       const maxSafe = Number.MAX_SAFE_INTEGER;
+       const minSafe = Number.MIN_SAFE_INTEGER;
+
+       console.log("Max Safe Integer:", maxSafe);
+       console.log("Min Safe Integer:", minSafe);
+       
+       

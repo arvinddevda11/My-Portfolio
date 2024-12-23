@@ -1,14 +1,10 @@
-// 4. **String Concatenation:**
-//    Write code to concatenate the following strings:
-//    - `firstName` = `"Yash"`
-//    - `lastName` = `"Priyam"`
-//    Print: `"My full name is Yash Priyam."`
-
+// 4. **Scientific Notation:**
+//    Declare a variable `bigNumber` with the value `3.2e7` (32 million). 
+//Print the variable.
 // ---
 
-       const firstName = "Arvind";
-       const lastName = "Devda";
 
-       console.log(`My full name is ${firstName} ${lastName}.`);
-       
-       
+   const bigNumber = 3.2e7;
+   console.log(bigNumber); // 32000000
+   
+   

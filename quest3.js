@@ -1,11 +1,15 @@
-// 3. **Template Literals:**
-//    Declare variables `name` and `location`.
-// Assign values to them (e.g., `"Yash"` and `"Bhopal"`). Use backticks to print a sentence:
-//    `"Hi, my name is [name] and I live in [location]."`
+// 3. **Big Numbers:**
+//    Write a script to declare two numbers:
+//    - `safeNumber` = `Number.MAX_SAFE_INTEGER`.
+//    - `unsafeNumber` = `9007199254740995`.  
+//    Print both values.
 // ---
-  
-     const name = "Arvind";
-     const  location = "Bhopal";
 
-     console.log(`"Hi, my name is ${name} and I live in ${location}."`);
+   
+     const safeNumber = Number.MAX_SAFE_INTEGER
+     console.log(safeNumber); // 9007199254740991
+
+     const unsafeNumber = BigInt(9007199254740995)
+     console.log(unsafeNumber);
+     
      

@@ -1,12 +1,13 @@
-// 9. **Detect Errors:**
-//    Identify and fix the problem in this code:
+// 4. **Debug the Code:**
+//    Fix the rounding issue in the code below:
 //    ```javascript
-//    const greeting = 'Hello, I'm Yash's student';
-//    console.log(greeting);
+//    const number = 45.678;
+//    const rounded = Math.round(number, 2);
+//    console.log(rounded);
 //    ```
 // ---
 
-
-      const greeting = 'Hello, I\'m Yahs\'s student';
-      console.log(greeting);
+      const number = 45.678;
+      const rounded = Math.round(number);
+      console.log(rounded);
       
