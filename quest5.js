@@ -12,6 +12,6 @@
 
       const a = 900719954741000
       const b = Number.MAX_SAFE_INTEGER 
-      const Subtract = a + b
-      console.log(Subtract); // 9907919209481992
+      const Subtract = b - a
+      console.log(Subtract); // 8106479299999991
       
