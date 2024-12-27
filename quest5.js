@@ -1,17 +1,21 @@
-// 5. **Perform Calculations:**
-//    Write code to perform the following calculations:
-//    - Add `100` to `Number.MAX_SAFE_INTEGER`.
-//    - Subtract `9007199254741000` from `Number.MAX_SAFE_INTEGER`.
-//    Print both results.
-// ---
+// 5. **Increment and Decrement:**
+//    Write code to:
+//    - Declare a variable `count = 5`.
+//    - Increment it using both pre-increment (`++count`) and post-increment (`count++`).  
+//    Print the value of `count` before and after each operation.
 
-      const safeNumber = Number.MAX_SAFE_INTEGER
-      const add = 100
-      const sum = safeNumber + add
-      console.log(sum); // 9007199254741092 
 
-      const a = 900719954741000
-      const b = Number.MAX_SAFE_INTEGER 
-      const Subtract = a + b
-      console.log(Subtract); // 9907919209481992
-      
+        let count = 5;
+        console.log({count}); // 5
+
+        count++
+        console.log({count}); // 6
+
+        ++count
+        console.log({count}); // 7
+        
+        
+        
+        
+        
+        

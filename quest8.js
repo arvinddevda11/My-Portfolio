@@ -1,18 +1,12 @@
-// 3. **Complete the Code:**
-//    Fill in the blanks to print the highest and lowest safe integers:
-//    ```javascript
-//    const maxSafe = Number.______;
-//    const minSafe = Number.______;
-//    console.log("Max Safe Integer:", maxSafe);
-//    console.log("Min Safe Integer:", minSafe);
-//    ```
-// ---
+// 8. **Null and Undefined:**
+//    Write code to:
+//    - Declare two variables, `emptyValue` and `notAssigned`.  
+//    - Assign `null` to `emptyValue` and leave `notAssigned` undefined.  
+//    Print both variables and their types.
 
 
-       const maxSafe = Number.MAX_SAFE_INTEGER;
-       const minSafe = Number.MIN_SAFE_INTEGER;
+       let emptyValue = null;
+       console.log(emptyValue);
 
-       console.log("Max Safe Integer:", maxSafe);
-       console.log("Min Safe Integer:", minSafe);
-       
-       
+       let notAssigned; 
+       console.log(notAssigned);

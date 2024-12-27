@@ -1,13 +1,19 @@
-// 2. **Math Rounding:**
-//    Declare a variable `number = 56.78`.
-//  Use `Math.ceil`, `Math.floor`, and `Math.round` to round the number in different ways.
-//  Print the results.
-// ---
+// 2. **Boolean Conversion:**
+//    Write code to convert the following values to Boolean using `Boolean()`:
+//    - An empty string (`''`).
+//    - A non-empty string (`'hello'`).
+//    - The number `0`.  
+//    Print the results.
 
-     const number = 56.78
-     console.log(Math.ceil(number)); //  57
-     console.log(Math.floor(number)); // 56
-     console.log(Math.round(number)); // 57
+       const empty = Boolean('');
+       console.log(empty); // false
 
+       const nonempty = Boolean('Hello');
+       console.log(nonempty); // true
 
-     
+       
+       const number = Boolean(0);
+       console.log(number); // false
+       
+       
+        

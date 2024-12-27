@@ -1,15 +1,8 @@
-// 3. **Big Numbers:**
-//    Write a script to declare two numbers:
-//    - `safeNumber` = `Number.MAX_SAFE_INTEGER`.
-//    - `unsafeNumber` = `9007199254740995`.  
-//    Print both values.
-// ---
+// 3. **Symbol Usage:**
+//    Declare a symbol with the key `"unique_id"`. Print the symbol's value.
 
-   
-     const safeNumber = Number.MAX_SAFE_INTEGER
-     console.log(safeNumber); // 9007199254740991
+       const symbol= Symbol("unique_id");
+       console.log(symbol);
 
-     const unsafeNumber = BigInt(9007199254740995)
-     console.log(unsafeNumber);
-     
-     
+
+

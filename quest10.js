@@ -1,16 +1,10 @@
-// 5. **Identify the Result:**
-//    What will the following code output?  
-//    ```javascript
-//    const largeNumber = 1_000_000_000;
-//    const smallNumber = 1e-6;
-//    console.log(largeNumber + smallNumber);
-//    ```
-//    **Write and verify the result.**
+// 10. **Symbol Comparison:**
+//     Write code to:
+//     - Declare two symbols with the same description (`"key"`).  
+//     - Compare them using `===` and print the result.
 
-// ---
-
-     const largeNumber = 1_000_000_000;
-     const smallNumber = 1e6;
-
-     console.log(largeNumber + smallNumber); // output is: 1000000000.000001
-     
+       const symbol1 = Symbol(2);
+       const symbol2 = Symbol(2);
+       
+       console.log(symbol1 === symbol2 ); // false
+       
