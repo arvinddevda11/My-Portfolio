@@ -1,11 +1,28 @@
-// 8. **Find the Error:**
-//    Debug and fix this code:
+// 8. **Switch-Case Debugging:**
+//    Fix the issues in the following code:
 //    ```javascript
-//    let symbol = Symbol("key");
-//    console.log(symbol === "key");
+//    let color = "red";
+//    switch (color) {
+//        case "blue":
+//            console.log("Color is blue");
+//        case "red":
+//            console.log("Color is red");
+//        default:
+//            console.log("Color is not identified");
+//    }
 
-     let symbol = ("key");
-     console.log(symbol === "key"); // true
+       let color = "red";
 
-     
-     
+       switch (color) {
+        case 'blue':
+            console.log("Color is blue");
+            break;
+       
+        case 'red' :
+            console.log("Color is red");
+             break;
+
+        default:
+            console.log("Color is not defined");          
+            break;
+       }  // color is red

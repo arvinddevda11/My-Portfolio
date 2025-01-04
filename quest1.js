@@ -1,14 +1,19 @@
-// ### **Write-in-Code Questions**
+  // ### **Write-in-Code Questions**
 
-// 1. **Boolean Declaration:**
-//    Write code to declare two variables:  
-//    - `isLoggedIn` with the value `true`.  
-//    - `isGuest` with the value `false`.  
-//    Print: `"Is user logged in? [isLoggedIn]. Is user a guest? [isGuest]."`
+// 1. **Basic `if-else`:**
+//    Write a script where:
+//    - Declare `isWeekend` as `true`.
+//    - Use an `if-else` condition to print:
+//      - `"Relax, it's the weekend!"` if `isWeekend` is `true`.
+//      - `"Get back to work!"` if `isWeekend` is `false`.
 
+        
+        let isWeekend = true;
 
-     const isLoggedIn = true;
-     const isGuest = false;
-     
-     console.log(`Is user logged in? ${isLoggedIn}. Is user a guest? ${isGuest}.`);
-     
+        if (isWeekend) {
+          console.log("Relax, it's the weekend!");
+
+        } else {
+          console.log("Get back to work");
+          
+        }

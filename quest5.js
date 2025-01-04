@@ -1,21 +1,25 @@
-// 5. **Increment and Decrement:**
-//    Write code to:
-//    - Declare a variable `count = 5`.
-//    - Increment it using both pre-increment (`++count`) and post-increment (`count++`).  
-//    Print the value of `count` before and after each operation.
 
+// 5. **Switch Case - Age Groups:**
+//    Write a script to check age groups:
+//    - Declare `age = 30`.
+//    - Use a `switch-case` statement to print:
+//      - `"Senior Citizen"` if age is greater than or equal to 60.
+//      - `"Adult"` if age is between 18 and 59.
+//      - `"Teenager"` if age is between 12 and 17.
+//      - `"Child"` otherwise.
 
-        let count = 5;
-        console.log({count}); // 5
+           let age = 30;
 
-        count++
-        console.log({count}); // 6
-
-        ++count
-        console.log({count}); // 7
-        
-        
-        
-        
-        
-        
+         switch (true) {
+            case age >= 60 :
+                console.log("Senior Citizen");
+                break;
+            case age >= 18 && age < 60:
+                console.log("Adult");
+                break;
+            case age >= 12 && age < 17:
+                console.log("Teenager");
+                break;
+            default:
+                console.log("Child");                                             
+         }

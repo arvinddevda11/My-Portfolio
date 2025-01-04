@@ -1,19 +1,24 @@
-// 3. **Complete the Code:**
-//    Fill in the blanks to print the product and sum of two numbers:
+// 3. **Fill in the Blanks:**
+//    Complete the following code to print the user's age group:
 //    ```javascript
-//    const num1 = 12;
-//    const num2 = 8;
-//    const product = num1 ______ num2;
-//    const total = num1 ______ num2;
-//    console.log('Product:', ______);
-//    console.log('Sum:', ______);
+//    let age = 20;
+//    if (______ >= 60) {
+//        console.log("Senior Citizen");
+//    } else if (______ >= 18) {
+//        console.log("Adult");
+//    } else {
+//        console.log("Underage");
+//    }
 
-      const num1 = 12;
-      const num2 = 8;
+     let age = 20;
+      
+     if (age >= 60) {
+        console.log("Senior citizen");
 
-      const product = num1 * num2;
-      console.log('product:', product);
-      
-      const sum = num1 + num2;
-      console.log('sum:', sum);
-      
+     } else if (age >= 18 && age < 60) {
+        console.log("Adult");
+        
+     } else {
+        console.log("Underage");
+        
+     }

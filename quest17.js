@@ -1,15 +1,11 @@
-// 7. **Predict the Output:**
+// 7. **Output Analysis:**
 //    What will the following code print?
 //    ```javascript
-//    let count = 1;
-//    console.log(count++);
-//    console.log(++count);
+//    let userAge = 64;
+//    const message = userAge >= 60 ? "Senior Citizen" : "Not a Senior Citizen";
+//    console.log(message);
 
-     let count = 1;
-     count++
-     console.log(count); // 2
-
-     ++count
-     console.log(count); // 3
-     
-     
+     let userAge = 64;
+      
+     const message = userAge >= 60 ?  "Senior Citizen" : "Not a senior Citizen";
+     console.log(message); // user is senior citizen

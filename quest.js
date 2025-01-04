@@ -1,79 +1,97 @@
 // ### **Write-in-Code Questions**
 
-// 1. **Boolean Declaration:**
-//    Write code to declare two variables:  
-//    - `isLoggedIn` with the value `true`.  
-//    - `isGuest` with the value `false`.  
-//    Print: `"Is user logged in? [isLoggedIn]. Is user a guest? [isGuest]."`
+// 1. **Basic `if-else`:**
+//    Write a script where:
+//    - Declare `isWeekend` as `true`.
+//    - Use an `if-else` condition to print:
+//      - `"Relax, it's the weekend!"` if `isWeekend` is `true`.
+//      - `"Get back to work!"` if `isWeekend` is `false`.
 
 // ---
 
-// 2. **Boolean Conversion:**
-//    Write code to convert the following values to Boolean using `Boolean()`:
-//    - An empty string (`''`).
-//    - A non-empty string (`'hello'`).
-//    - The number `0`.  
-//    Print the results.
+// 2. **Multiple Conditions:**
+//    Write a script where:
+//    - Declare `score = 85`.
+//    - Use `if-else if-else` conditions to print:
+//      - `"Excellent"` if the score is greater than or equal to 90.
+//      - `"Good"` if the score is between 75 and 89.
+//      - `"Needs Improvement"` otherwise.
 
 // ---
 
-// 3. **Symbol Usage:**
-//    Declare a symbol with the key `"unique_id"`. Print the symbol's value.
+// 3. **Check Age Range:**
+//    Write a script to:
+//    - Declare `userAge = 25`.
+//    - Print `"User is an adult"` if the age is between 18 and 60, otherwise print `"User is not an adult"`.
 
 // ---
 
-// 4. **Math Operations:**
-//    Write code to:
-//    - Declare two variables `x = 10` and `y = 5`.
-//    - Calculate their sum, product, and division.
-//    - Print the results.
+// 4. **Ternary Operator for Vegetarians:**
+//    Write a script where:
+//    - Declare `isVegetarian = false`.
+//    - Use a ternary operator to print:
+//      - `"Serving vegetarian items"` if `isVegetarian` is `true`.
+//      - `"Serving non-vegetarian items"` if `isVegetarian` is `false`.
 
 // ---
 
-// 5. **Increment and Decrement:**
-//    Write code to:
-//    - Declare a variable `count = 5`.
-//    - Increment it using both pre-increment (`++count`) and post-increment (`count++`).  
-//    Print the value of `count` before and after each operation.
+// 5. **Switch Case - Age Groups:**
+//    Write a script to check age groups:
+//    - Declare `age = 30`.
+//    - Use a `switch-case` statement to print:
+//      - `"Senior Citizen"` if age is greater than or equal to 60.
+//      - `"Adult"` if age is between 18 and 59.
+//      - `"Teenager"` if age is between 12 and 17.
+//      - `"Child"` otherwise.
 
 // ---
 
-// 6. **Equality Operators:**
-//    Write code to declare two variables:
-//    - `a = 50` (number).  
-//    - `b = '50'` (string).  
-//    Use `==` and `===` to compare `a` and `b` and print the results.
+// 6. **Switch Case with Breaks:**
+//    Write a script where:
+//    - Declare `day = 'Monday'`.
+//    - Use `switch-case` with `break` to print:
+//      - `"Start of the workweek"` for `"Monday"`.
+//      - `"Midweek"` for `"Wednesday"`.
+//      - `"Weekend"` for `"Saturday"` and `"Sunday"`.
+//      - `"Not a valid day"` otherwise.
 
 // ---
 
-// 7. **Assignment Operators:**
-//    Write code to:
-//    - Declare a variable `value = 10`.
-//    - Use `+=` and `-=` operators to add `5` and subtract `3` from `value`.  
-//    Print the updated value after each operation.
+// 7. **Find User Type:**
+//    Write a script to check the type of user:
+//    - Declare `userType = 'admin'`.
+//    - Use a `switch-case` statement to print:
+//      - `"Admin privileges"` for `"admin"`.
+//      - `"Moderator privileges"` for `"moderator"`.
+//      - `"User privileges"` for `"user"`.
+//      - `"Invalid user type"` otherwise.
 
 // ---
 
-// 8. **Null and Undefined:**
-//    Write code to:
-//    - Declare two variables, `emptyValue` and `notAssigned`.  
-//    - Assign `null` to `emptyValue` and leave `notAssigned` undefined.  
-//    Print both variables and their types.
+// 8. **Ternary Operator for Discount:**
+//    Write a script where:
+//    - Declare `isPremiumUser = true`.
+//    - Use a ternary operator to print:
+//      - `"Eligible for discount"` if `isPremiumUser` is `true`.
+//      - `"Not eligible for discount"` otherwise.
 
 // ---
 
-// 9. **Math Power and Modulus:**
-//    Write code to:
-//    - Declare `base = 3` and `exponent = 4`.
-//    - Calculate and print `base` raised to the power of `exponent`.
-//    - Find the modulus of `13` divided by `5` and print the result.
+// 9. **Check Even or Odd:**
+//    Write a script to:
+//    - Declare a variable `number = 23`.
+//    - Use a ternary operator to check and print:
+//      - `"Even"` if the number is even.
+//      - `"Odd"` if the number is odd.
 
 // ---
 
-// 10. **Symbol Comparison:**
-//     Write code to:
-//     - Declare two symbols with the same description (`"key"`).  
-//     - Compare them using `===` and print the result.
+// 10. **Senior Citizen Message:**
+//     Write a script where:
+//     - Declare `age = 65`.
+//     - Use `if-else` to print:
+//       - `"User is a senior citizen and needs extra care"` if age is greater than or equal to 60.
+//       - `"User is not a senior citizen"` otherwise.
 
 // ---
 
@@ -82,103 +100,135 @@
 // 1. **Predict the Output:**
 //    What will the following code print?
 //    ```javascript
-//    const bool = Boolean('JavaScript');
-//    console.log(bool);
+//    const isVegetarian = true;
+//    if (isVegetarian) {
+//        console.log("Serving vegetarian food.");
+//    } else {
+//        console.log("Serving non-vegetarian food.");
+//    }
 //    ```
 
 // ---
 
 // 2. **Fix the Code:**
-//    Identify and fix the issue in the following code:
+//    Identify and fix the errors in the following code:
 //    ```javascript
-//    const isNull = undefined;
-//    console.log(isNull === null);
+//    let age = 45;
+//    if (age >= 18 && age <= 60 {
+//        console.log("User is an adult");
+//    } else if age > 60) {
+//        console.log("User is a senior citizen");
+//    }
 //    ```
 
 // ---
 
-// 3. **Complete the Code:**
-//    Fill in the blanks to print the product and sum of two numbers:
+// 3. **Fill in the Blanks:**
+//    Complete the following code to print the user's age group:
 //    ```javascript
-//    const num1 = 12;
-//    const num2 = 8;
-//    const product = num1 ______ num2;
-//    const total = num1 ______ num2;
-//    console.log('Product:', ______);
-//    console.log('Sum:', ______);
+//    let age = 20;
+//    if (______ >= 60) {
+//        console.log("Senior Citizen");
+//    } else if (______ >= 18) {
+//        console.log("Adult");
+//    } else {
+//        console.log("Underage");
+//    }
 //    ```
 
 // ---
 
-// 4. **Correct the Logic:**
-//    Fix the following code to check if two variables have both the same value and type:
+// 4. **Debug the Code:**
+//    Find and correct the problem in the following script:
 //    ```javascript
-//    const num1 = 42;
-//    const num2 = '42';
-//    console.log(num1 == num2);
+//    const age = 15;
+//    age >= 18 ? console.log("Adult") : console.log("Minor";
 //    ```
 
 // ---
 
-// 5. **Debug the Code:**
-//    Find and correct the error in the following code:
+// 5. **Switch-Case Output:**
+//    Predict the output of the following code:
 //    ```javascript
-//    const x = 7;
-//    const y = 2;
-//    const divide = x / 0;
-//    console.log(divide);
+//    let day = "Sunday";
+//    switch (day) {
+//        case "Saturday":
+//        case "Sunday":
+//            console.log("It's the weekend!");
+//            break;
+//        default:
+//            console.log("It's a weekday.");
+//    }
 //    ```
 
 // ---
 
-// 6. **Fill in the Blanks:**
-//    Complete the following code to assign and print the result of an operation:
+// 6. **Rewrite Using Ternary:**
+//    Rewrite the following code using a ternary operator:
 //    ```javascript
-//    let num = 10;
-//    num ______= 5; // Add 5 to num
-//    console.log(num);
+//    const isWeekend = false;
+//    if (isWeekend) {
+//        console.log("Relax, it's the weekend!");
+//    } else {
+//        console.log("Get back to work!");
+//    }
 //    ```
 
 // ---
 
-// 7. **Predict the Output:**
+// 7. **Output Analysis:**
 //    What will the following code print?
 //    ```javascript
-//    let count = 1;
-//    console.log(count++);
-//    console.log(++count);
+//    let userAge = 64;
+//    const message = userAge >= 60 ? "Senior Citizen" : "Not a Senior Citizen";
+//    console.log(message);
 //    ```
 
 // ---
 
-// 8. **Find the Error:**
-//    Debug and fix this code:
+// 8. **Switch-Case Debugging:**
+//    Fix the issues in the following code:
 //    ```javascript
-//    let symbol = Symbol("key");
-//    console.log(symbol === "key");
+//    let color = "red";
+//    switch (color) {
+//        case "blue":
+//            console.log("Color is blue");
+//        case "red":
+//            console.log("Color is red");
+//        default:
+//            console.log("Color is not identified");
+//    }
 //    ```
 
 // ---
 
-// 9. **Null Check:**
-//    Write code to predict and verify the output:
+// 9. **Predict the Output:**
+//    What will the following code print?
 //    ```javascript
-//    const emptyValue = null;
-//    const isNull = emptyValue === null;
-//    console.log(isNull);
+//    let score = 90;
+//    switch (true) {
+//        case score >= 85:
+//            console.log("Excellent");
+//            break;
+//        case score >= 70:
+//            console.log("Good");
+//            break;
+//        default:
+//            console.log("Average");
+//    }
 //    ```
 
 // ---
 
-// 10. **Operator Challenge:**
-//     What will the following code output?
+// 10. **Nested Ternary Operator:**
+//     What will the following code print?
 //     ```javascript
-//     const a = 15;
-//     const b = 4;
-//     console.log(a % b);
-//     console.log(a ** b);
+//     let age = 16;
+//     const message = age >= 18
+//         ? "Adult"
+//         : age >= 12
+//         ? "Teenager"
+//         : "Child";
+//     console.log(message);
+
 //     ```
-
-// ---
-
-// These questions cover fundamental concepts of Booleans, symbols, null, undefined, and mathematical/assignment operators in JavaScript while keeping the content engaging and practice-oriented.

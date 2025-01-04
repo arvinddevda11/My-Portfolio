@@ -1,15 +1,25 @@
-// 5. **Debug the Code:**
-//    Find and correct the error in the following code:
+// 5. **Switch-Case Output:**
+//    Predict the output of the following code:
 //    ```javascript
-//    const x = 7;
-//    const y = 2;
-//    const divide = x / 0;
-//    console.log(divide);
+//    let day = "Sunday";
+//    switch (day) {
+//        case "Saturday":
+//        case "Sunday":
+//            console.log("It's the weekend!");
+//            break;
+//        default:
+//            console.log("It's a weekday.");
+//    }
 
+    let day = "Sunday";
 
-    const x = 7;
-    const y = 2;
-
-    const divide = x / y;
-    console.log(divide);  // 3.5
+    switch (day) {
+        case 'Saturday':
+        case 'Sunday' :
+            console.log("It's the weekend!");          
+            break;
     
+        default:
+            console.log("It's the weekday");
+            break;
+    } // It's the weekend

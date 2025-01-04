@@ -1,17 +1,25 @@
-// 7. **Assignment Operators:**
-//    Write code to:
-//    - Declare a variable `value = 10`.
-//    - Use `+=` and `-=` operators to add `5` and subtract `3` from `value`.  
-//    Print the updated value after each operation.
+// 7. **Find User Type:**
+//    Write a script to check the type of user:
+//    - Declare `userType = 'admin'`.
+//    - Use a `switch-case` statement to print:
+//      - `"Admin privileges"` for `"admin"`.
+//      - `"Moderator privileges"` for `"moderator"`.
+//      - `"User privileges"` for `"user"`.
+//      - `"Invalid user type"` otherwise.
 
+        let userType = "admin";
 
-     let value = 10;
-
-     value += 5;
-     console.log(value); // 15
-
-     value -= 3;
-     console.log(value); // 12
-     
-
-     
+        switch (userType) {
+            case 'admin':
+                console.log('Admin privileges');
+                break;
+            case 'moderator' :
+                console.log('Moderator privileges');
+                break;
+            case 'user' :
+                console.log('User privileges');
+                break;
+            default:
+                console.log('Invalid user type');
+                break;
+        }

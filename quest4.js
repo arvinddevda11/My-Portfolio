@@ -1,23 +1,12 @@
-// 4. **Math Operations:**
-//    Write code to:
-//    - Declare two variables `x = 10` and `y = 5`.
-//    - Calculate their sum, product, and division.
-//    - Print the results.
 
+// 4. **Ternary Operator for Vegetarians:**
+//    Write a script where:
+//    - Declare `isVegetarian = false`.
+//    - Use a ternary operator to print:
+//      - `"Serving vegetarian items"` if `isVegetarian` is `true`.
+//      - `"Serving non-vegetarian items"` if `isVegetarian` is `false`.
 
-        const x = 10;
-        const y = 5;
-
-        const sum = x + y;
-        console.log(sum); 
-
-        const product = x * y;
-        console.log(product); 
-
-        const division = x / y
-        console.log(division); 
-
+            let isVegetarian = false;
+               
+        isVegetarian ? console.log("Serving vegetarian items") : console.log("Serving non-vegetarian items");
         
-
-        
-

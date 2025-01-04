@@ -1,11 +1,11 @@
-// 4. **Correct the Logic:**
-//    Fix the following code to check if two variables have both the same value and type:
+// 4. **Debug the Code:**
+//    Find and correct the problem in the following script:
 //    ```javascript
-//    const num1 = 42;
-//    const num2 = '42';
-//    console.log(num1 == num2);
+//    const age = 15;
+//    age >= 18 ? console.log("Adult") : console.log("Minor";
 
-      const num1 = 42;
-      const num2 = '42';
-      console.log(num1 == num2); //true
-      
+       const age =15;
+
+       age >= 18 ? console.log("Adult") : console.log("Minor"); // output is Minor
+       
+       

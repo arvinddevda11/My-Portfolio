@@ -1,12 +1,15 @@
-// 6. **Fill in the Blanks:**
-//    Complete the following code to assign and print the result of an operation:
+// 6. **Rewrite Using Ternary:**
+//    Rewrite the following code using a ternary operator:
 //    ```javascript
-//    let num = 10;
-//    num ______= 5; // Add 5 to num
-//    console.log(num);
+//    const isWeekend = false;
+//    if (isWeekend) {
+//        console.log("Relax, it's the weekend!");
+//    } else {
+//        console.log("Get back to work!");
+//    }
 
-      let num = 10;
-      num += 5;
-      console.log(num);
+      const isWeekend = false;
+
+      isWeekend ? console.log("Relax it's the weekend!") : console.log("Get back to your work!");
       
       

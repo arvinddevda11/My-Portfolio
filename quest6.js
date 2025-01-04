@@ -1,13 +1,27 @@
-// 6. **Equality Operators:**
-//    Write code to declare two variables:
-//    - `a = 50` (number).  
-//    - `b = '50'` (string).  
-//    Use `==` and `===` to compare `a` and `b` and print the results.
 
+// 6. **Switch Case with Breaks:**
+//    Write a script where:
+//    - Declare `day = 'Monday'`.
+//    - Use `switch-case` with `break` to print:
+//      - `"Start of the workweek"` for `"Monday"`.
+//      - `"Midweek"` for `"Wednesday"`.
+//      - `"Weekend"` for `"Saturday"` and `"Sunday"`.
+//      - `"Not a valid day"` otherwise.
+        
+         let day = "Monday";
 
-      const a = 50;
-      const b = '50';
-      console.log(a == b); // true
-      console.log(a === b); // false
-      
-
+        switch (day) {
+            case 'Monday':
+                console.log("Start of the workweek");
+                break;
+            case 'Wednesday' :
+                console.log("Midweek");
+                break;
+            case 'Satutrday':
+            case 'Sunday': 
+                console.log("Weekend");
+                break;                
+            default:
+                console.log("Not a valid day");
+                break;
+        }

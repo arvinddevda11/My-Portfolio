@@ -1,11 +1,19 @@
 // 2. **Fix the Code:**
-//    Identify and fix the issue in the following code:
+//    Identify and fix the errors in the following code:
 //    ```javascript
-//    const isNull = undefined;
-//    console.log(isNull === null);
-  
-    
-      const isNull = undefined;
-      console.log(isNull === undefined); // true
-      
-          
+//    let age = 45;
+//    if (age >= 18 && age <= 60 {
+//        console.log("User is an adult");
+//    } else if age > 60) {
+//        console.log("User is a senior citizen");
+//    }
+
+     let age = 45;
+
+     if (age >= 18 && age < 60) {
+        console.log("User is an adult");
+        
+     } else if (age >= 60){
+        console.log("User is a senior citizen");
+        
+     }
