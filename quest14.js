@@ -1,11 +1,17 @@
-// 4. **Debug the Code:**
-//    Find and correct the problem in the following script:
+
+// 4. **Analyze and Fix:**
+//    Find the issue in the following code:
 //    ```javascript
-//    const age = 15;
-//    age >= 18 ? console.log("Adult") : console.log("Minor";
+//    const greet = (name) => {
+//        return "Hello, " + name;
+//    }
+//    console.log(greet());
+//    ```
 
-       const age =15;
-
-       age >= 18 ? console.log("Adult") : console.log("Minor"); // output is Minor
-       
-       
+    const greet = (name) => {
+        return "Hello " + name;
+    }
+    const result = greet('Arvind')
+    console.log(result);
+    
+     

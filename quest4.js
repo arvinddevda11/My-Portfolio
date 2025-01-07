@@ -1,12 +1,13 @@
 
-// 4. **Ternary Operator for Vegetarians:**
-//    Write a script where:
-//    - Declare `isVegetarian = false`.
-//    - Use a ternary operator to print:
-//      - `"Serving vegetarian items"` if `isVegetarian` is `true`.
-//      - `"Serving non-vegetarian items"` if `isVegetarian` is `false`.
+// 4. **Combine with Variables:**
+//    Write a function `getFullName` that:
+//    - Takes `firstName` and `lastName` as arguments.
+//    - Returns the full name using a template literal.
+//    Declare `const fullName = getFullName('Yash', 'Priyam')` and print `fullName`.
 
-            let isVegetarian = false;
-               
-        isVegetarian ? console.log("Serving vegetarian items") : console.log("Serving non-vegetarian items");
-        
+     const getFullName = (firstName, lastName) => {
+        return firstName + " " +  lastName;
+     }
+     const fullName = getFullName('Arvind', 'Devda')
+     console.log({fullName});
+     

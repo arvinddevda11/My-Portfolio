@@ -1,24 +1,14 @@
-// 3. **Fill in the Blanks:**
-//    Complete the following code to print the user's age group:
+
+// 3. **Complete the Function:**
+//    Fill in the blanks to create a function that calculates the square of a number:
 //    ```javascript
-//    let age = 20;
-//    if (______ >= 60) {
-//        console.log("Senior Citizen");
-//    } else if (______ >= 18) {
-//        console.log("Adult");
-//    } else {
-//        console.log("Underage");
-//    }
+//    const square = ______ => ______ ** 2;
+//    console.log(square(6)); // Should print 36
+//    ```
+   
+    const square = (num) => {
+       return num ** 2;
+    }
 
-     let age = 20;
-      
-     if (age >= 60) {
-        console.log("Senior citizen");
-
-     } else if (age >= 18 && age < 60) {
-        console.log("Adult");
-        
-     } else {
-        console.log("Underage");
-        
-     }
+    console.log(square(6)); // output is 36
+    

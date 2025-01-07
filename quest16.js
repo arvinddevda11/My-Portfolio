@@ -1,15 +1,21 @@
-// 6. **Rewrite Using Ternary:**
-//    Rewrite the following code using a ternary operator:
+
+// 6. **Nested Function Prediction:**
+//    What will the following code print?
 //    ```javascript
-//    const isWeekend = false;
-//    if (isWeekend) {
-//        console.log("Relax, it's the weekend!");
-//    } else {
-//        console.log("Get back to work!");
+//    function outerFunction(a) {
+//        function innerFunction(b) {
+//            return a + b;
+//        }
+//        return innerFunction(10);
 //    }
+//    console.log(outerFunction(5));
+//    ```
 
-      const isWeekend = false;
 
-      isWeekend ? console.log("Relax it's the weekend!") : console.log("Get back to your work!");
-      
-      
+function outerFunction(a) {
+           function innerFunction(b) {
+               return a + b;
+           }
+           return innerFunction(10);
+       }
+        console.log(outerFunction(5)); // output is 15

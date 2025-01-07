@@ -1,16 +1,20 @@
-// 10. **Senior Citizen Message:**
-//     Write a script where:
-//     - Declare `age = 65`.
-//     - Use `if-else` to print:
-//       - `"User is a senior citizen and needs extra care"` if age is greater than or equal to 60.
-//       - `"User is not a senior citizen"` otherwise.
 
-         let age = 65;
+// 10. **Nested Functions:**
+//     Write a function `performMath` that:
+//     - Takes two numbers as arguments.
+//     - Has a nested function `sum` to calculate the sum.
+//     - Returns the sum of the two numbers.
+//     Call the outer function with `12` and `8` and print the result.
 
-         if (age >=60) {
-            console.log("User is a senior citizen and needs extra care");
- 
-         } else {
-            console.log("User is not a senior citizen");
-            
-         }
+
+      function performMath(x, y) {
+        
+        function sum(a, b) {
+            return a + b;
+        }
+        return x + y;
+      }
+       
+      const outerFunction = performMath(12,8)
+      console.log({outerFunction});
+      

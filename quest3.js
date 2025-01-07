@@ -1,17 +1,14 @@
 
-// 3. **Check Age Range:**
-//    Write a script to:
-//    - Declare `userAge = 25`.
-//    - Print `"User is an adult"` if the age is between 18 and 60, otherwise print `"User is not an adult"`.
+// 3. **Arrow Function:**
+//    Write an arrow function `divideNumbers` that:
+//    - Takes two numbers as arguments.
+//    - Returns their quotient.
+//    Call the function with `20` and `4` and print the result.
 
 
-       let userAge = 25;
+    const divideNumbers = (a, b) => {
+       return (a / b);
+    }
+    console.log(divideNumbers(20, 4)); // 5
 
-
-       if (userAge <= 60 && userAge >= 18) {
-        console.log("User is an adult");
-        
-       } else {
-        console.log("User is not an adult");
-        
-       }
+    

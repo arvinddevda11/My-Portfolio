@@ -1,25 +1,22 @@
 
-// 5. **Switch Case - Age Groups:**
-//    Write a script to check age groups:
-//    - Declare `age = 30`.
-//    - Use a `switch-case` statement to print:
-//      - `"Senior Citizen"` if age is greater than or equal to 60.
-//      - `"Adult"` if age is between 18 and 59.
-//      - `"Teenager"` if age is between 12 and 17.
+// 5. **Conditional Logic Inside a Function:**
+//    Write a function `checkAge` that:
+//    - Takes an age as input.
+//    - Returns:
+//      - `"Teenager"` if age is between `13` and `19`.
+//      - `"Adult"` if age is `20` or older.
 //      - `"Child"` otherwise.
+//    Call the function with `15` and print the result.
 
-           let age = 30;
-
-         switch (true) {
-            case age >= 60 :
-                console.log("Senior Citizen");
-                break;
-            case age >= 18 && age < 60:
-                console.log("Adult");
-                break;
-            case age >= 12 && age < 17:
-                console.log("Teenager");
-                break;
-            default:
-                console.log("Child");                                             
-         }
+     function checkAge(age) {
+        if (age > 20) {
+            return "Adult";
+        } else if (age > 13 && age < 19) {
+            return "Tenager";
+        } else {
+            return "Child";
+        }
+     }
+     const userType = checkAge(15)
+     console.log({userType});
+     

@@ -1,12 +1,13 @@
-// 8. **Ternary Operator for Discount:**
-//    Write a script where:
-//    - Declare `isPremiumUser = true`.
-//    - Use a ternary operator to print:
-//      - `"Eligible for discount"` if `isPremiumUser` is `true`.
-//      - `"Not eligible for discount"` otherwise.
 
-      let isPremiumUser = "true";
+// 8. **Boolean Return Function:**
+//    Write a function `isEven` that:
+//    - Takes a number as input.
+//    - Returns `true` if the number is even, otherwise returns `false`.
+//    Call the function with `10` and print the result.
+//  ```
 
-      isPremiumUser ? console.log("Eligible for discount") : console.log("Not Eligible for dicount");
-      
-
+       function isEven(number) {
+            return number % 2 === 0;
+       }
+       console.log(isEven(10));
+       

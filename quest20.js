@@ -1,19 +1,25 @@
 
-// 10. **Nested Ternary Operator:**
+// 10. **Analyze Variable Scope:**
 //     What will the following code print?
 //     ```javascript
-//     let age = 16;
-//     const message = age >= 18
-//         ? "Adult"
-//         : age >= 12
-//         ? "Teenager"
-//         : "Child";
-//     console.log(message);
+//     function testScope() {
+//         let x = 10;
+//         if (x > 5) {
+//             let y = x + 5;
+//         }
+//         return y;
+//     }
+//     console.log(testScope());
+//     ```
 
-      let age = 16;
-
-      age >= 18 && age < 60 ? console.log("Adult") 
-      : age >= 12 && age < 18 ? console.log("Teenager") 
-      : age < 12 ? console.log("Child")
-      : console.log("Age is not defined");
-      
+function testScope() {
+            let x = 10;
+            if (x > 5) {
+                return  x + 5;
+                
+            } 
+                return 'y';
+            }
+            
+        
+        console.log(testScope()); // output is 15

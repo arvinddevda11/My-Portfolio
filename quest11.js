@@ -1,20 +1,18 @@
-// 1. **Predict the Output:**
-//    What will the following code print?
+
+// ### **Code-Snippet-Based Questions**
+
+// 1. **Debugging:**
+//    Identify and fix the error in the following function:
 //    ```javascript
-//    const isVegetarian = true;
-//    if (isVegetarian) {
-//        console.log("Serving vegetarian food.");
-//    } else {
-//        console.log("Serving non-vegetarian food.");
+//    function calculateSum(num1, num2) {
+//        num1 + num2;
 //    }
-
-
-       const isVegetarian = "true";
-
-       if (isVegetarian) {
-        console.log("Serving vegetarian food.");
-        
-       } else {
-        console.log("Serving non-vegetarian food.");
-        
-       }  // output is "Serving vegetarian food"
+//    const result = calculateSum(10, 20);
+//    console.log(result);
+//    ```
+ function calculateSum(num1, num2) {
+    return num1 + num2;
+ }
+  const result = calculateSum(10, 20)
+  console.log({result});
+  

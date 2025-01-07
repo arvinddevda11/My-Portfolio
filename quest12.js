@@ -1,19 +1,14 @@
-// 2. **Fix the Code:**
-//    Identify and fix the errors in the following code:
+
+// 2. **Predict the Output:**
+//    What will the following code print?
 //    ```javascript
-//    let age = 45;
-//    if (age >= 18 && age <= 60 {
-//        console.log("User is an adult");
-//    } else if age > 60) {
-//        console.log("User is a senior citizen");
-//    }
+//    const multiply = (a, b) => a * b;
+//    console.log(multiply(4, 5));
+//    ```
 
-     let age = 45;
-
-     if (age >= 18 && age < 60) {
-        console.log("User is an adult");
-        
-     } else if (age >= 60){
-        console.log("User is a senior citizen");
-        
-     }
+   const multiply = (a, b) => {
+    return a * b;
+   }
+   const result = multiply(4, 5)
+   console.log({result});
+   
